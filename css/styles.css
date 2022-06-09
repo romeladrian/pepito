@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background: rgb(40, 136, 192);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 4px 14px 4px rgb(27, 136, 199);
+}
+.nadvar{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.menu a{
+    font-size: 19px;
+    padding: 10px 20px;
+    color: rgb(157, 172, 236);
+    transition: 0.5s;
+}
+.menu a:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(50, 105, 207);
+}
+.logo{
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo H1{
+    color:rgb(44, 45, 78)
+}
+.logo span{
+    color: grey;
+}
+.responsive{
+    display: none;
+}
+.banner{
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+    background-image: url(/image/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.texto-banner{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.texto-banner h2{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.014);
+}
+.texto-banner p{
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+    padding-bottom: 30px;
+    background: rgba(236, 233, 233, 0)
+}
+.texto-banner input{
+    margin-top: 20px;
+    padding: 20px 30px;
+    background: gray;
+    width: 180px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.texto{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px;
+}
+.texto h2{
+    font-size: 50px;
+    color: grey;
+}
+.img-main{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.img-food{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.img-food img{
+    width: 20%;
+    height: 180px;
+    margin: 10px;
+    transition: 00.5s;
+}
+.img-food img:hover{
+    filter: grayscale(3);
+}
+.cliente{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    margin: auto;
+}
+.texto-cliente{
+    padding-bottom: 100PX;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+.cliente-img{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.cliente-img .img-texto-cliente{
+    width: 20%;
+    text-align: center;
+}
+.img-texto-cliente h3{
+    text-align: center;
+    padding: 5px;
+    color: gray;
+}
+.img-texto-cliente p{
+    text-align: center;
+    padding: 5px;
+    color: gray;
+}
+.img-texto-cliente img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 10px solid rgb(115, 110, 154);
+}
+.footer{
+    width: 100px;
+    height: 200px;
+    background: gray;
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer h2{
+    color: white;
+    font-size: 30px;
+}
+.sociales{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.sociales i{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    transition: 00.5s;
+    border-radius: 50%;
+}
+.sociales i:hover{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
